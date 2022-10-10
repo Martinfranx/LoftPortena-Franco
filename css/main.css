@@ -3,7 +3,7 @@
     
     vertical-align: baseline !important;
     display: flex !important;
-    color: #b14900 !important;
+    color: black !important;
     font-size: 4rem !important;
     position: left !important;
     
@@ -78,4 +78,59 @@ div footer {
     border-radius: 2rem;
     margin: 1rem;
     padding: 1rem;
+}
+
+.card-img-top {
+    max-width: 600px !important;
+    max-height: 400px !important;
+}
+
+.main-reviews {
+    display: inline-block;
+}
+
+.h2-reviews {
+    display: inline;
+    text-align: left;
+    background-color: whitesmoke;
+}
+
+.mapa {
+    display: inline-block;
+    justify-items: center;
+}
+
+.main-politicas {
+    text-align: center;
+    
+}
+
+
+
+.main-reservas {
+    background-color: white;
+    margin: 5rem;  
+    text-align: center;
+}
+
+.carousel {
+    max-width: 600px;
+    max-height: 800px;
+    
+}
+
+.b-f-enviar:hover {
+    background-color: #b14900;
+    transition: .5s;
+    transform: scale(1.2);
+    transform: perspective(2);
+    
+}
+
+.b-f-limpiar:hover {
+    background-color: #b14900;
+    transition: .5s;
+    transform: scale(1.2);
+    transform: perspective(2);
+    
 }
