@@ -1,12 +1,29 @@
 
 .frase-principal {
     
-    vertical-align: baseline !important;
-    display: flex !important;
+    
+    
     color: black !important;
     font-size: 4rem !important;
-    position: left !important;
     
+    
+    grid-area: frase;
+
+    
+    
+}
+
+.area-principal {
+    align-items: center;
+    text-align: center;
+    display: grid;
+
+    grid-template-areas: 
+    "frase imagen"
+    "frase imagen"
+    "frase imagen"
+    
+    ;
 }
 
 h1 {
@@ -21,14 +38,15 @@ h1 {
     float: right;
     margin: 1rem;
     border-radius: 2rem;
-      
+
+    grid-area: imagen;
 }
 
 .descripcion {
     display: inline-block;
     text-align: center;
     text-justify: center;
-    background-color: #b14900;
+    
     margin: 1rem;
     padding: 1rem;
     color: white;
@@ -87,12 +105,15 @@ div footer {
 
 .main-reviews {
     display: inline-block;
+    margin-top: 3rem;
+    text-align: center;
 }
 
 .h2-reviews {
     display: inline;
-    text-align: left;
-    background-color: whitesmoke;
+    text-align: center;
+    margin-bottom: 3rem;
+    
 }
 
 .mapa {
@@ -102,6 +123,7 @@ div footer {
 
 .main-politicas {
     text-align: center;
+    margin-top: 3rem;
     
 }
 
