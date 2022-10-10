@@ -16,6 +16,7 @@
 @media (max-width: 700px) {
     .frase-principal {
         font-size: medium;
+    
     }
 }
 
@@ -142,8 +143,11 @@ div footer {
 
 .main-reservas {
     background-color: white;
-    margin: 5rem;  
+    
+    margin-top: 1rem;
     text-align: center;
+    align-items: center;
+    justify-items: center;
 }
 
 .carousel {
