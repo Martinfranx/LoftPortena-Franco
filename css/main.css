@@ -1,1 +1,81 @@
-aside
+
+.frase-principal {
+    
+    vertical-align: baseline !important;
+    display: flex !important;
+    color: #b14900 !important;
+    font-size: 4rem !important;
+    position: left !important;
+    
+}
+
+h1 {
+    background-color: #c52a2ab4 !important;
+    color: white !important;
+    margin: 1rem !important;
+}
+
+.imagen-index {
+    max-width: 600px;
+    max-height: 600px;
+    float: right;
+    margin: 1rem;
+    border-radius: 2rem;
+      
+}
+
+.descripcion {
+    display: inline-block;
+    text-align: center;
+    text-justify: center;
+    background-color: #b14900;
+    margin: 1rem;
+    padding: 1rem;
+    color: white;
+    border-radius: 2rem;
+}
+
+
+
+div descripcion p1 {
+    color: white;
+}
+
+
+div footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: small;
+}
+
+.redes {
+    padding: 4px;
+    background-color: none;
+    transition: 0.5s;
+    
+   
+}
+
+.redes:hover {
+    background-color: #b14900;
+    scale: (2);
+}
+
+.nav-link {
+    border-radius: 1rem;
+}
+
+.nav-link:hover {
+    background-color: white;
+    color: black !important;
+    transition: 1s;
+    border-radius: 2rem;
+
+    
+}
+
+.card-group {
+    border-radius: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+}
