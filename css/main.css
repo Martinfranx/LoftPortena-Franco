@@ -3,14 +3,20 @@
     
     
     
-    color: black !important;
-    font-size: 4rem !important;
-    
+    color: black;
+    font-size: 4rem;
+    margin: 1rem;
     
     grid-area: frase;
 
     
     
+}
+
+@media (max-width: 700px) {
+    .frase-principal {
+        font-size: medium;
+    }
 }
 
 .area-principal {
@@ -36,11 +42,16 @@ h1 {
     max-width: 600px;
     max-height: 600px;
     float: right;
-    margin: 1rem;
+    margin: 0.5rem;
+    
     border-radius: 2rem;
+    
 
     grid-area: imagen;
+    align-items: center;
 }
+
+
 
 .descripcion {
     display: inline-block;
@@ -156,3 +167,4 @@ div footer {
     transform: perspective(2);
     
 }
+
