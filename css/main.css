@@ -1,22 +1,15 @@
 
 .frase-principal {
-    
-    
-    
     color: black;
     font-size: 4rem;
-    margin: 1rem;
-    
+    margin: 1rem;   
     grid-area: frase;
-
-    
-    
+    background-color: white;
 }
 
 @media (max-width: 700px) {
     .frase-principal {
         font-size: medium;
-    
     }
 }
 
@@ -24,30 +17,24 @@
     align-items: center;
     text-align: center;
     display: grid;
-
     grid-template-areas: 
     "frase imagen"
     "frase imagen"
     "frase imagen"
-    
     ;
 }
 
 h1 {
-    background-color: #c52a2ab4 !important;
-    color: white !important;
-    margin: 1rem !important;
+    background-color: #c52a2ab4;
+    color: white;
+    margin: 1rem;
 }
 
 .imagen-index {
     max-width: 600px;
     max-height: 600px;
-    float: right;
     margin: 0.5rem;
-    
     border-radius: 2rem;
-    
-
     grid-area: imagen;
     align-items: center;
 }
@@ -57,20 +44,16 @@ h1 {
 .descripcion {
     display: inline-block;
     text-align: center;
-    text-justify: center;
-    
+    text-justify: center; 
     margin: 1rem;
     padding: 1rem;
     color: white;
     border-radius: 2rem;
 }
 
-
-
-div descripcion p1 {
+div .descripcion .p1 {
     color: white;
 }
-
 
 div footer {
     text-align: center;
@@ -82,13 +65,11 @@ div footer {
     padding: 4px;
     background-color: none;
     transition: 0.5s;
-    
-   
 }
 
 .redes:hover {
     background-color: #b14900;
-    scale: (2);
+    transform: scale(1.2);
 }
 
 .nav-link {
@@ -97,7 +78,7 @@ div footer {
 
 .nav-link:hover {
     background-color: white;
-    color: black !important;
+    color: black;
     transition: 1s;
     border-radius: 2rem;
 
@@ -111,8 +92,8 @@ div footer {
 }
 
 .card-img-top {
-    max-width: 600px !important;
-    max-height: 400px !important;
+    max-width: 600px;
+    max-height: 400px;
 }
 
 .main-reviews {
@@ -122,9 +103,9 @@ div footer {
 }
 
 .h2-reviews {
-    display: inline;
+    display: block;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;   
     
 }
 
@@ -135,15 +116,13 @@ div footer {
 
 .main-politicas {
     text-align: center;
-    margin-top: 3rem;
-    
+    margin-top: 3rem;   
 }
 
 
 
 .main-reservas {
-    background-color: white;
-    
+    background-color: white; 
     margin-top: 1rem;
     text-align: center;
     align-items: center;
@@ -152,23 +131,20 @@ div footer {
 
 .carousel {
     max-width: 600px;
-    max-height: 800px;
-    
+    max-height: 800px;  
 }
 
 .b-f-enviar:hover {
     background-color: #b14900;
     transition: .5s;
     transform: scale(1.2);
-    transform: perspective(2);
-    
+    transform: perspective(2);  
 }
 
 .b-f-limpiar:hover {
     background-color: #b14900;
     transition: .5s;
     transform: scale(1.2);
-    transform: perspective(2);
-    
+    transform: perspective(2);    
 }
 
