@@ -1,0 +1,19 @@
+.main-reservas {
+    background-color: $color-secundario;
+    margin-top: $margin;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+
+    .cuerpo-reservas {
+        display: grid;
+        grid-template-areas:
+            "formu"
+        ;
+        text-align: center;
+    }
+
+    .formu {
+        grid-area: formu;
+    }
+}

@@ -1,0 +1,10 @@
+.nav-link {
+    border-radius: $border-radius*0.5;
+}
+
+.nav-link:hover {
+    background-color: $color-secundario;
+    color: black;
+    transition: 1s;
+    border-radius: $border-radius;
+}

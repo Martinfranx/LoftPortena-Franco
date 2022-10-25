@@ -1,0 +1,17 @@
+.main-reviews {
+    display: inline-block;
+    margin-top: $margin;
+    text-align: center;
+
+    .h2-reviews {
+        display: block;
+        text-align: center;
+        margin-bottom: $margin;
+
+        .mapa {
+            display: inline-block;
+            justify-items: center;
+        }
+    }
+
+}

@@ -1,0 +1,67 @@
+.frase-principal {
+    color: black;
+    font-size: 4rem;
+    margin: $margin;
+    background-color: $color-secundario;
+}
+
+@media (max-width: 700px) {
+    .frase-principal {
+        font-size: 40px;
+    }
+
+    .card-body {
+        text-align: center;
+    }
+
+    .area-principal {
+        display: inline-block;
+    }
+
+    .imagen-index {
+        min-width: 8rem;
+        min-height: 8rem;
+    }
+}
+
+.area-principal {
+    align-items: center;
+    text-align: center;
+
+    .imagen-index {
+        @extend .area-principal;
+        max-width: 600px;
+        max-height: 600px;
+        margin: $margin*0.5;
+        border-radius: $border-radius;
+        min-width: 190px;
+    }
+}
+
+.descripcion {
+    display: inline-block;
+    text-align: center;
+    text-justify: center;
+    margin: $margin;
+    padding: $padding*0.5;
+    color: $color-secundario;
+    border-radius: $border-radius;
+}
+
+div {
+    .descripcion {
+        .p1 {
+            color: $color-secundario;
+        }
+    }
+}
+
+
+.card-group {
+    @include bord (1rem, 1rem, 2rem)
+}
+
+.card-img-top {
+    max-width: 600px;
+    max-height: 400px;
+}

@@ -1,0 +1,16 @@
+div footer {
+    text-align: center;
+    padding: $padding;
+    font-size: small;
+
+    .redes {
+        padding: $padding*0.5;
+        background-color: none;
+        transition: 0.5s;
+    }
+
+    .redes:hover {
+        background-color: $color-primario;
+        transform: scale(1.2);
+    }
+}

@@ -1,0 +1,11 @@
+$color-primario: #c52a2ab4;
+$color-secundario: #ffffff;
+$margin: 1rem;
+$padding: 2rem;
+$border-radius: 2rem;
+
+@mixin bord ($margin, $padding, $border-radius) {
+    margin: $margin;
+    padding: $padding;
+    border-radius: $border-radius
+}

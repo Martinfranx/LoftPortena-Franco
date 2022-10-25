@@ -1,0 +1,172 @@
+.frase-principal {
+    color: black;
+    font-size: 4rem;
+    margin: 1rem;
+    grid-area: frase;
+    background-color: white;
+}
+
+@media (max-width: 700px) {
+    .frase-principal {
+        font-size: 40px;
+    }
+
+    .card-body {
+        text-align: center;
+    }
+
+    .area-principal {
+        display: inline-block;
+    }
+
+    .imagen-index {
+        min-width: 8rem;
+        min-height: 8rem;
+    }
+}
+
+.area-principal {
+    align-items: center;
+    text-align: center;
+
+}
+
+h1 {
+    background-color: #c52a2ab4;
+    color: white;
+    margin: 1rem;
+}
+
+.imagen-index {
+    max-width: 600px;
+    max-height: 600px;
+    margin: 0.5rem;
+    border-radius: 2rem;
+    grid-area: imagen;
+    align-items: center;
+    min-width: 190px;
+}
+
+.descripcion {
+    display: inline-block;
+    text-align: center;
+    text-justify: center;
+    margin: 1rem;
+    padding: 1rem;
+    color: white;
+    border-radius: 2rem;
+}
+
+div .descripcion .p1 {
+    color: white;
+}
+
+div footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: small;
+}
+
+.redes {
+    padding: 4px;
+    background-color: none;
+    transition: 0.5s;
+}
+
+.redes:hover {
+    background-color: #b14900;
+    transform: scale(1.2);
+}
+
+.nav-link {
+    border-radius: 1rem;
+}
+
+.nav-link:hover {
+    background-color: white;
+    color: black;
+    transition: 1s;
+    border-radius: 2rem;
+
+
+}
+
+.card-group {
+    border-radius: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.card-img-top {
+    max-width: 600px;
+    max-height: 400px;
+}
+
+.main-reviews {
+    display: inline-block;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.h2-reviews {
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+.mapa {
+    display: inline-block;
+    justify-items: center;
+}
+
+.main-politicas {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.bodybody {
+    max-width: 1200px;
+}
+
+
+.main-reservas {
+    background-color: white;
+    margin-top: 1rem;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.cuerpo-reservas {
+    display: grid;
+    grid-template-areas: 
+    "formu"
+    ;
+    text-align: center;
+}
+
+.formu {
+    grid-area: formu;
+}
+
+
+
+.carousel {
+    max-width: 600px;
+    max-height: 800px;
+}
+
+.b-f-enviar:hover {
+    background-color: #b14900;
+    transition: .5s;
+    transform: scale(1.2);
+    transform: perspective(2);
+}
+
+.b-f-limpiar:hover {
+    background-color: #b14900;
+    transition: .5s;
+    transform: scale(1.2);
+    transform: perspective(2);
+}
