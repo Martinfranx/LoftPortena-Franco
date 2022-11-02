@@ -1,4 +1,13 @@
 .main-politicas {
     text-align: center;
     margin-top: $margin;
+    .politicas-negrita {
+        font-weight: bold;
+    }
+}
+
+.questions {
+    margin-top: 4rem;
+    border-style: groove;
+    border-radius: $border-radius;
 }

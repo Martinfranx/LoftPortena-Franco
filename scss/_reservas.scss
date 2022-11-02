@@ -15,5 +15,30 @@
 
     .formu {
         grid-area: formu;
+        
+        .btn {
+            background-color: $color-primario;
+            color: $color-secundario;
+            margin-top: $margin;
+        }
+    }
+}
+
+.enlace-airbnb {
+    display: flex;
+    justify-content: center;
+
+    .airbnb-embed-frame {
+
+        display: flex;
+        justify-content: center;
+        min-width: 450px;
+    }
+
+}
+
+@media (min-width: 375px) {
+    .airbnb-embed-frame {
+        min-width: 375px;
     }
 }

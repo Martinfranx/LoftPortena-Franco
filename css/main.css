@@ -53,7 +53,8 @@ div .descripcion .p1 {
 
 .carousel {
   max-width: 600px;
-  max-height: 800px; }
+  max-height: 800px;
+  margin-top: 1rem; }
 
 .main-reviews {
   display: inline-block;
@@ -66,6 +67,15 @@ div .descripcion .p1 {
     .main-reviews .h2-reviews .mapa {
       display: inline-block;
       justify-items: center; }
+  .main-reviews .resena-1 {
+    max-width: 250px;
+    max-height: 200px; }
+  .main-reviews .resena-2 {
+    max-width: 250px;
+    max-height: 200px; }
+  .main-reviews .resena-3 {
+    max-width: 250px;
+    max-height: 400px; }
 
 .main-reservas {
   background-color: #ffffff;
@@ -79,13 +89,37 @@ div .descripcion .p1 {
     text-align: center; }
   .main-reservas .formu {
     grid-area: formu; }
+    .main-reservas .formu .btn {
+      background-color: #c52a2ab4;
+      color: #ffffff;
+      margin-top: 1rem; }
+
+.enlace-airbnb {
+  display: flex;
+  justify-content: center; }
+  .enlace-airbnb .airbnb-embed-frame {
+    display: flex;
+    justify-content: center;
+    min-width: 450px; }
+
+@media (min-width: 375px) {
+  .airbnb-embed-frame {
+    min-width: 375px; } }
 
 .main-politicas {
   text-align: center;
   margin-top: 1rem; }
+  .main-politicas .politicas-negrita {
+    font-weight: bold; }
+
+.questions {
+  margin-top: 4rem;
+  border-style: groove;
+  border-radius: 2rem; }
 
 .nav-link {
-  border-radius: 1rem; }
+  border-radius: 1rem;
+  text-align: justify; }
 
 .nav-link:hover {
   background-color: #ffffff;
